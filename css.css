@@ -48,6 +48,31 @@ h2 {
   font-weight: normal;
 }
 
+ul li {
+   list-style-type: disc;
+   font-size:15px;
+}
+
+ul li > span {
+   font-size:20px;
+}
+
+a {
+  color: #4988ba;
+  text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active,
+a.active {
+  color: #91b9d7;
+  text-decoration: none;
+}
+
+.lame {
+  color: #aaa;
+}
+
 @media screen and (max-width:740px) {
     h1 {
       font-size: 10vw;
