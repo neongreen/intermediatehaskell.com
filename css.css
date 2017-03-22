@@ -22,8 +22,8 @@ section {
   text-align: center;
 }
 .haskell-logo {
-  padding-top: 80px;
-  padding-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 70px;
   background: url(Haskell.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -38,12 +38,12 @@ section {
   padding-right: 20px;
 }
 h1 {
-  font-size: 80px;
+  font-size: 100px;
   font-weight: normal;
 }
 h2 {
-  margin-top: 1em;
-  font-size: 40px;
+  margin-top: -1em;
+  font-size: 50px;
   font-weight: normal;
 }
 
