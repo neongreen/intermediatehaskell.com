@@ -26,7 +26,7 @@ section {
   padding-bottom: 50px;
   background: url(Haskell.svg);
   background-repeat: no-repeat;
-  background-position: 15% 50%;
+  background-position: center;
   background-size: 1100px;
 }
 .about-section {
