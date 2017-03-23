@@ -50,11 +50,12 @@ h2 {
 
 ul li {
    list-style-type: disc;
-   font-size:15px;
+   font-size: 15px;
+   padding-bottom: 8px;
 }
 
 ul li > span {
-   font-size:20px;
+   font-size: 20px;
 }
 
 a {
@@ -75,9 +76,24 @@ a.active {
 
 @media screen and (max-width:740px) {
     h1 {
-      font-size: 10vw;
+      font-size: 15vw;
+      line-height: 15vw;
     }
     h2 {
-      font-size: 5vw;
+      font-size: 7vw;
+    }
+    .haskell-logo {
+      background-size: 160%;
+      padding-top: 1px;
+      padding-bottom: 10px;
+    }
+    body {
+      font-size: 18px;
+    }
+    ul li {
+       font-size: 14px;
+    }
+    ul li > span {
+       font-size: 18px;
     }
 }
