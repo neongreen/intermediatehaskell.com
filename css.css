@@ -38,14 +38,14 @@ section {
   padding-right: 20px;
 }
 h1 {
-  font-size: 105px;
+  font-size: 121px;
   font-weight: normal;
-  line-height: 90px;
+  line-height: 150px;
+  margin: 50px 1px;
+  text-shadow: 1px 1px gray;
 }
-h2 {
-  margin-top: -1em;
-  font-size: 50px;
-  font-weight: normal;
+h1 .hs {
+  font-size: 220px;
 }
 
 ul li {
@@ -76,11 +76,13 @@ a.active {
 
 @media screen and (max-width:740px) {
     h1 {
-      font-size: 15vw;
-      line-height: 15vw;
+      font-size: 13.7vw;
+      line-height: 18vw;
+      margin: 30px 1px;
+      text-shadow: 1px 1px gray;
     }
-    h2 {
-      font-size: 7vw;
+    h1 .hs {
+      font-size: 25vw;
     }
     .haskell-logo {
       background-size: 160%;
