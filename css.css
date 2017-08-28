@@ -12,8 +12,6 @@ main {
 pre, code {
   font-family: 'Ubuntu Mono', monospace;
 }
-section {
-}
 .section {
   display: block;
   margin: 0 auto;
@@ -30,7 +28,7 @@ section {
   background: url(Haskell.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1100px;
+  background-size: 1000px;
 }
 .about-section {
   padding: 20px 40px;
@@ -39,14 +37,14 @@ section {
   padding-top: 20px;
 }
 h1 {
-  font-size: 121px;
+  font-size: 100px;
   font-weight: normal;
-  line-height: 150px;
-  margin: 50px 1px;
+  line-height: 120px;
+  margin: 1px 1px;
   text-shadow: 1px 1px gray;
 }
 h1 .hs {
-  font-size: 220px;
+  font-size: 181px;
 }
 
 ul li {
